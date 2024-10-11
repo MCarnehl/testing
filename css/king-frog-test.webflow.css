@@ -311,6 +311,8 @@ figcaption {
   text-transform: none;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-top: 3%;
+  padding-bottom: 3%;
   font-size: 64px;
   line-height: 80px;
 }
@@ -472,12 +474,15 @@ figcaption {
 
 .intro-header {
   color: #fff;
-  background-color: #f4f4f4;
+  background-color: #fff;
   justify-content: center;
   align-items: center;
   height: 100%;
   margin-bottom: 0;
+  padding-top: 12%;
+  padding-bottom: 12%;
   display: flex;
+  overflow: hidden;
 }
 
 .intro-header.cc-subpage {
@@ -494,6 +499,7 @@ figcaption {
 }
 
 .intro-content.cc-homepage {
+  width: 80%;
   margin-bottom: 20px;
 }
 
@@ -979,14 +985,18 @@ figcaption {
 }
 
 .secondary-button {
-  color: #000;
+  color: #fff;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: #fff;
+  background-color: #356142;
   padding: 12px 25px;
   font-size: 12px;
   line-height: 20px;
   text-decoration: none;
+}
+
+.secondary-button:hover {
+  background-color: #b39830;
 }
 
 .secondary-button.cc-jumbo-button {
@@ -998,6 +1008,8 @@ figcaption {
 .image {
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
   position: static;
 }
 
@@ -1381,6 +1393,10 @@ figcaption {
   .blog-detail-header-wrap, .blog-item {
     width: 100%;
     max-width: none;
+  }
+
+  .image {
+    max-width: 200px;
   }
 }
 
